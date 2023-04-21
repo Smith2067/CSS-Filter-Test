@@ -1,0 +1,89 @@
+/*Beach Image Section---------------------------------------------------------------*/
+#beachOne{
+    filter: blur(0);
+}
+
+#beachTwo{
+    filter: blur(3px);
+}
+
+#beachThree{
+    filter: grayscale(100%);
+}
+
+#beachFour{
+    filter: brightness(0);
+}
+
+#beachFive{
+    filter: brightness(1);
+}
+
+#beachSix{
+    filter: brightness(.5);
+}
+
+#beachSeven{
+    filter: brightness(35%);
+}
+
+#beachEight{
+    filter: contrast(180%);
+}
+/*End Beach Image Section-----------------------------------------------------------*/
+
+/*Grayscale Image Section-----------------------------------------------------------*/
+#grayscaleZero{
+    filter: grayscale(0%);
+}
+
+#grayscaleFifty{
+    filter: grayscale(50%);
+}
+
+#grayscaleOneHundred{
+    filter: grayscale(100%);
+}
+/*End Grayscale Image Section-------------------------------------------------------*/
+
+/*Landscape Image Section-----------------------------------------------------------*/
+#landscapeOpacityFull{
+    filter: opacity(100%);
+}
+
+#landscapeOpacityNone{
+    filter: opacity(0%);
+}
+
+#landscapeOpacityHalf{
+    filter: opacity(50%);
+}
+
+#landscapeSaturated{
+    filter: saturate(175%);
+}
+/*End Landscape Image Section-------------------------------------------------------*/
+
+/*Sunset Image Section--------------------------------------------------------------*/
+#sunsetGrayscale{
+    filter: grayscale(100%);
+}
+
+#sunsetSepia{
+    filter: sepia(100%);
+}
+/*End Sunset Image Section----------------------------------------------------------*/
+
+/*Layout Related CSS.  This section is not related to the assignment. -------------*/
+body{
+    font-family: 'Arial', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    border: solid black 2px;
+    width: 100%;
+}
+/*End Layout Related CSS Section.---------------------------------------------------*/
